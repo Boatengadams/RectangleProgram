@@ -1,10 +1,11 @@
+// Question: How can a program read three rectangles and print their dimensions, perimeter, and area?
 package OOP;
 // Create an array of 3 rectangles read from the user and print the attribute of each
 
 import java.util.Scanner;
 
 public class RectangleProgram {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Rectangle [] rectangles = new Rectangle[3];
         Scanner input = new Scanner(System.in);
         for (int i = 0 ; i < rectangles.length; i++ ){
